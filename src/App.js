@@ -14,7 +14,7 @@ export default function App() {
     <div id="main-layout">
       <header id="main-header"><Header /></header>
       <main id="main-body">
-        <Row >
+        <Row type="flex">
           <Col xs={3} sm={0}><MobileSider /></Col>
           <Col
             xs={0}
