@@ -15,7 +15,7 @@ export default class Header extends Component {
   render() {
     return (
       <nav>
-        <Menu mode="horizontal" selectedKeys={[this.state.current]} onClick={this.changeTab} style={{ textAlign: 'center' }}>
+        <Menu mode="horizontal" selectedKeys={[this.state.current]} onClick={this.changeTab} className="Header-Menu">
           <Menu.Item key="home">
             <Link to="/">Home</Link>
           </Menu.Item>

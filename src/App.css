@@ -1,19 +1,25 @@
 @import '~antd/dist/antd.css';
 
-#main-layout {
+.App-layout {
   min-height    : 100vh;
   display       : flex;
   flex-direction: column;
 }
 
-#main-header {
+.App-header {
   flex: 0 0 auto;
 }
 
-#main-body {
-  flex: 1 0 auto;
+.App-body {
+  flex   : 1 0 auto;
+  display: flex;
 }
 
-#main-footer {
+.App-route {
+  flex-grow : 1;
+  margin-top: 35px;
+}
+
+.App-footer {
   flex: 0 0 auto;
 }

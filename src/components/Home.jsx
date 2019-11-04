@@ -1,21 +1,27 @@
 import React from 'react';
-import { Typography, Row, Col } from 'antd';
+import { Typography, Divider } from 'antd';
+import TravelPlan from './TravelPlan.jsx';
+import Miscellaneous from './Miscellaneous.jsx';
 import shizhangli from '../pics/shizhangli.jpg';
 
 const { Title, Paragraph } = Typography;
 
 export default function Home() {
   return (
-    <Row >
-      <Col xs={24} lg={12} style={{ textAlign: 'center', padding: '30px 10px' }}>
-        <img src={shizhangli} alt="shizhangli" width="300px" />
-      </Col>
-      <Col xs={24} lg={12} style={{ padding: '30px 10px' }}>
-        <Typography>
+    <div>
+      <div className="img_text-wrapper">
+        <div className="Home-img">
+          <img src={shizhangli} alt="shizhangli" width="250px" />
+        </div>
+        <Typography className="Home-text">
           <Title>Shizhang Li</Title>
-          <Paragraph style={{ fontSize: 24 }}>“Ours not to reason why, ours but to do and die.” — Tennyson</Paragraph>
+          <Paragraph className="Home-text-quote"><i>“Ours not to reason why, ours but to do and die.”</i> -- Tennyson</Paragraph>
         </Typography>
-      </Col>
-    </Row>
+      </div>
+      <Divider />
+      <TravelPlan />
+      <Divider />
+      <Miscellaneous />
+    </div>
   )
 }

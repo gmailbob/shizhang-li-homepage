@@ -1,0 +1,103 @@
+.Footer-layout {
+  text-align: center;
+  margin    : -14px 0 10px 0;
+}
+
+.Header-Menu {
+  text-align: center;
+}
+
+
+.LeftSider-mobile {
+  position: fixed;
+  top     : 73px;
+  z-index : 3;
+}
+
+.LeftSider-desktop {
+  display: none;
+}
+
+@media screen and (min-width: 650px) {
+  .LeftSider-mobile {
+    display: none;
+  }
+
+  .LeftSider-desktop {
+    display: block;
+    width  : 265px;
+    padding: 20px;
+  }
+}
+
+.LeftSider-mobile-icon {
+  font-size       : 25px;
+  width           : 37px;
+  height          : 37px;
+  border-radius   : 5px;
+  text-align      : center;
+  background-color: rgba(24, 144, 255, 0.5);
+  box-shadow      : 4px 0 4px grey;
+}
+
+.LeftSider-desktop-title {
+  padding  : 24px 0;
+  font-size: 16px;
+}
+
+.Home-img {
+  text-align: center;
+}
+
+.Home-text {
+  margin          : 15px;
+  padding         : 10px;
+  border-radius   : 10px;
+  background-color: #EEE;
+}
+
+.Home-text-quote {
+  font-size: 18px;
+  margin   : 0 !important;
+}
+
+.TravelPlan-img,
+.Miscellaneous-img {
+  text-align: center;
+}
+
+.TravelPlan-collapse,
+.Miscellaneous-collapse {
+  margin: 15px 15px 0 15px;
+}
+
+@media screen and (min-width: 1300px) {
+  .img_text-wrapper {
+    display    : flex;
+    align-items: flex-start;
+  }
+
+  .img_text-wrapper> :first-child {
+    width      : 360px;
+    flex-shrink: 0;
+  }
+
+  .img_text-wrapper> :last-child {
+    flex-grow   : 1;
+    margin-right: 30px;
+  }
+
+  .Home-text {
+    height   : 220px;
+    max-width: 750px;
+    padding  : 30px;
+  }
+
+  .Home-text>h1 {
+    font-size: 60px;
+  }
+
+  .Home-text>div {
+    font-size: 25px;
+  }
+}
