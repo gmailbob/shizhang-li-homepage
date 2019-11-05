@@ -42,7 +42,7 @@ export default function TravelPlan() {
         <img src={travel} alt="travel" width="290px" />
       </div>
       <Collapse className="TravelPlan-collapse">
-        <Panel header="Travel Plan">
+        <Panel header="Click to toggle">
           <Table columns={columns} dataSource={data} />
         </Panel>
       </Collapse>

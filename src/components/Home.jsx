@@ -1,8 +1,9 @@
 import React from 'react';
-import { Typography, Divider } from 'antd';
+import { Typography, Divider, Icon } from 'antd';
+
+import shizhangli from '../pics/shizhangli.jpg';
 import TravelPlan from './TravelPlan.jsx';
 import Miscellaneous from './Miscellaneous.jsx';
-import shizhangli from '../pics/shizhangli.jpg';
 
 const { Title, Paragraph } = Typography;
 
@@ -18,9 +19,9 @@ export default function Home() {
           <Paragraph><i>“Ours not to reason why, ours but to do and die.”</i> -- Tennyson</Paragraph>
         </Typography>
       </div>
-      <Divider />
+      <Divider><Icon type="arrow-down" /> Travel Plan <Icon type="arrow-down" /></Divider>
       <TravelPlan />
-      <Divider />
+      <Divider><Icon type="arrow-down" /> Miscellaneous <Icon type="arrow-down" /></Divider>
       <Miscellaneous />
     </div>
   )

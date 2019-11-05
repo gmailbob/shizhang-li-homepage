@@ -19,7 +19,7 @@ export default class LeftSider extends Component {
     return (
       <nav>
         <div className="LeftSider-mobile">
-          <div className="LeftSider-mobile-icon"><Icon type="arrow-right" onClick={this.open} style={{ margin: 0, padding: 0 }} /></div>
+          <div className="LeftSider-mobile-icon"><Icon type="right" onClick={this.open} style={{ margin: 0, padding: 0 }} /></div>
           <Drawer
             title="You may also be interested in"
             placement="left"

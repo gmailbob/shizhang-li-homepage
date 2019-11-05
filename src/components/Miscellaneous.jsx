@@ -36,7 +36,7 @@ export default class Miscellaneous extends Component {
           <img src={miscellaneous} alt="miscellaneous" width="290px" />
         </div>
         <Collapse className="Miscellaneous-collapse">
-          <Panel header="Miscellaneous">
+          <Panel header="Click to toggle">
             <div>Open a random  <a target="_blank" onClick={() => this.randomVisit('all')} id="Miscellaneous-all" href="#">tag</a> in the stacks project. </div>
             <div>Open a random  <a target="_blank" onClick={() => this.randomVisit('part')} id="Miscellaneous-part" href="#">tag</a> in the stacks project containing "pro&eacute;tale" in the tag.</div>
           </Panel>
