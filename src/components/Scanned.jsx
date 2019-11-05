@@ -2,7 +2,7 @@ import React from 'react';
 import { Typography } from 'antd';
 import take_notes from '../pics/take_notes.jpg';
 
-const { Title, Paragraph, List } = Typography;
+const { Title, Paragraph } = Typography;
 
 const data = [
   `In Fall of 2018, Bhargav Bhatt gave <a href="http://www-personal.umich.edu/~bhattb/teaching/prismatic-columbia/">Eilenberg Lectures Series</a>. On his website, one can already find complete notes. Just for my own record, I put my <a href="http://shizhang.li/scanned/prismatic%20cohomology.pdf"><font size="3">notes</font></a> here.`,
