@@ -1,44 +1,31 @@
 import React, { Component } from 'react';
 import { Menu } from 'antd';
-import { Link } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 
-export default class Header extends Component {
-
-  state = {
-    current: 'home'
-  }
-
-  changeTab = e => {
-    this.setState({ current: e.key });
-  }
+class Header extends Component {
+  routes = [
+    { path: '/', text: 'Home' },
+    { path: '/about', text: 'About Me' },
+    { path: '/teaching', text: 'Teaching' },
+    { path: '/notes', text: 'Notes' },
+    { path: '/papers', text: 'Papers and Preprints' },
+    { path: '/organizing', text: 'Organizing' },
+    { path: '/scanned', text: 'Scanned Notes' }
+  ];
 
   render() {
     return (
       <nav>
-        <Menu mode="horizontal" selectedKeys={[this.state.current]} onClick={this.changeTab} className="Header-Menu">
-          <Menu.Item key="home">
-            <Link to="/">Home</Link>
-          </Menu.Item>
-          <Menu.Item key="about">
-            <Link to="/about">About Me</Link>
-          </Menu.Item>
-          <Menu.Item key="teaching">
-            <Link to="/teaching">Teaching</Link>
-          </Menu.Item>
-          <Menu.Item key="notes">
-            <Link to="/notes">Notes</Link>
-          </Menu.Item>
-          <Menu.Item key="papers">
-            <Link to="/papers">Papers and Preprints</Link>
-          </Menu.Item>
-          <Menu.Item key="organizing">
-            <Link to="/organizing">Organizing</Link>
-          </Menu.Item>
-          <Menu.Item key="scanned">
-            <Link to="/scanned">Scanned Notes</Link>
-          </Menu.Item>
+        <Menu mode="horizontal" className="Header-Menu" selectedKeys={[this.props.location.pathname]}>
+          {this.routes.map(ele => (
+            <Menu.Item key={ele.path}>
+              <Link to={ele.path}>{ele.text}</Link>
+            </Menu.Item>
+          ))}
         </Menu>
       </nav>
     )
   }
 }
+
+export default withRouter(Header);

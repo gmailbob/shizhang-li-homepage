@@ -10,12 +10,12 @@ export default function Home() {
   return (
     <div>
       <div className="img_text-wrapper">
-        <div className="Home-img">
+        <div>
           <img src={shizhangli} alt="shizhangli" width="250px" />
         </div>
-        <Typography className="Home-text">
+        <Typography className="component-text">
           <Title>Shizhang Li</Title>
-          <Paragraph className="Home-text-quote"><i>“Ours not to reason why, ours but to do and die.”</i> -- Tennyson</Paragraph>
+          <Paragraph><i>“Ours not to reason why, ours but to do and die.”</i> -- Tennyson</Paragraph>
         </Typography>
       </div>
       <Divider />

@@ -32,7 +32,7 @@ export default class Miscellaneous extends Component {
   render() {
     return (
       <div className="img_text-wrapper">
-        <div className="Miscellaneous-img">
+        <div>
           <img src={miscellaneous} alt="miscellaneous" width="290px" />
         </div>
         <Collapse className="Miscellaneous-collapse">

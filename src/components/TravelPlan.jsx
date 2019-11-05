@@ -38,7 +38,7 @@ const data = [
 export default function TravelPlan() {
   return (
     <div className="img_text-wrapper">
-      <div className="TravelPlan-img">
+      <div>
         <img src={travel} alt="travel" width="290px" />
       </div>
       <Collapse className="TravelPlan-collapse">
