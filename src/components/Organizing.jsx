@@ -33,7 +33,7 @@ export default function Organizing() {
           </Paragraph>
           <Paragraph>
             (Spring of 2018), <a href="http://www.math.columbia.edu/~brianrl/">Brian Lawrance</a> and I organized a learning seminar on Crystalline Cohomology.
-            <br />The website is <a href="http://www.math.columbia.edu/~brianrl/crys_seminar.html">here</a>
+            <br />The website is <a href="http://www.math.columbia.edu/~brianrl/crys_seminar.html">here</a>.
           </Paragraph>
           <Paragraph>
             (Summer of 2018), <a href="http://math.columbia.edu/~rcheng/">Raymond Cheng</a> and I are organizing a learning seminar on Integral p-adic Hodge theory.

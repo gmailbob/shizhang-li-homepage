@@ -34,10 +34,10 @@ export default function Teaching() {
           <Title>Archive</Title>
           <Title level={2}>Taught</Title>
           <Paragraph>
-            1. Calculus 3, Math S1201, Summer 2016. Corresponding website is <a target="_blank" href="http://shizhang.li/teaching/calc%203%202016%20summer/course">calc 3 2016 summer</a>.
+            1. Calculus 3, Math S1201, Summer 2016. Corresponding website is <a target="_blank" rel="noopener noreferrer" href="http://shizhang.li/teaching/calc%203%202016%20summer/course">calc 3 2016 summer</a>.
           </Paragraph>
           <Paragraph>
-            2. Calculus 3, Math S1201, Summer 2018. Corresponding website is <a target="_blank" href="http://shizhang.li/teaching/calc%203%202018%20summer/course">calc 3 2018 summer</a>.
+            2. Calculus 3, Math S1201, Summer 2018. Corresponding website is <a target="_blank" rel="noopener noreferrer" href="http://shizhang.li/teaching/calc%203%202018%20summer/course">calc 3 2018 summer</a>.
           </Paragraph>
           <Title level={2}>TA</Title>
           <Paragraph>

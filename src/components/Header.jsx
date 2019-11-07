@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Menu } from 'antd';
-import { Link, withRouter } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
-class Header extends Component {
-  routes = [
+export default function Header(props) {
+  const routes = [
     { path: '/', text: 'Home' },
     { path: '/about', text: 'About Me' },
     { path: '/teaching', text: 'Teaching' },
@@ -13,19 +13,17 @@ class Header extends Component {
     { path: '/scanned', text: 'Scanned Notes' }
   ];
 
-  render() {
-    return (
-      <nav>
-        <Menu mode="horizontal" className="Header-Menu" selectedKeys={[this.props.location.pathname]}>
-          {this.routes.map(ele => (
-            <Menu.Item key={ele.path}>
-              <Link to={ele.path}>{ele.text}</Link>
-            </Menu.Item>
-          ))}
-        </Menu>
-      </nav>
-    )
-  }
-}
+  const location = useLocation();
 
-export default withRouter(Header);
+  return (
+    <nav>
+      <Menu mode="horizontal" className="Header-Menu" selectedKeys={[location.pathname]}>
+        {routes.map(ele => (
+          <Menu.Item key={ele.path}>
+            <Link to={ele.path}>{ele.text}</Link>
+          </Menu.Item>
+        ))}
+      </Menu>
+    </nav>
+  )
+}
