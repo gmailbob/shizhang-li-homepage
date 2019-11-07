@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/shizhang-li-homepage/static/css/main.ec6ab049.chunk.css",
-    "main.js": "/shizhang-li-homepage/static/js/main.de11f810.chunk.js",
-    "main.js.map": "/shizhang-li-homepage/static/js/main.de11f810.chunk.js.map",
-    "runtime-main.js": "/shizhang-li-homepage/static/js/runtime-main.205ba9d6.js",
-    "runtime-main.js.map": "/shizhang-li-homepage/static/js/runtime-main.205ba9d6.js.map",
+    "main.css": "/shizhang-li-homepage/static/css/main.e57eef98.chunk.css",
+    "main.js": "/shizhang-li-homepage/static/js/main.f8faef49.chunk.js",
+    "main.js.map": "/shizhang-li-homepage/static/js/main.f8faef49.chunk.js.map",
+    "runtime-main.js": "/shizhang-li-homepage/static/js/runtime-main.3c31c986.js",
+    "runtime-main.js.map": "/shizhang-li-homepage/static/js/runtime-main.3c31c986.js.map",
     "static/css/2.aa7fcd32.chunk.css": "/shizhang-li-homepage/static/css/2.aa7fcd32.chunk.css",
-    "static/js/2.df052f62.chunk.js": "/shizhang-li-homepage/static/js/2.df052f62.chunk.js",
-    "static/js/2.df052f62.chunk.js.map": "/shizhang-li-homepage/static/js/2.df052f62.chunk.js.map",
+    "static/js/2.328e3b25.chunk.js": "/shizhang-li-homepage/static/js/2.328e3b25.chunk.js",
+    "static/js/2.328e3b25.chunk.js.map": "/shizhang-li-homepage/static/js/2.328e3b25.chunk.js.map",
     "index.html": "/shizhang-li-homepage/index.html",
-    "precache-manifest.42da4625324ef341c6cf582730dc5830.js": "/shizhang-li-homepage/precache-manifest.42da4625324ef341c6cf582730dc5830.js",
+    "precache-manifest.12bfc32b593c28b1dd5b4dd22a50c3fe.js": "/shizhang-li-homepage/precache-manifest.12bfc32b593c28b1dd5b4dd22a50c3fe.js",
     "service-worker.js": "/shizhang-li-homepage/service-worker.js",
     "static/css/2.aa7fcd32.chunk.css.map": "/shizhang-li-homepage/static/css/2.aa7fcd32.chunk.css.map",
-    "static/css/main.ec6ab049.chunk.css.map": "/shizhang-li-homepage/static/css/main.ec6ab049.chunk.css.map",
+    "static/css/main.e57eef98.chunk.css.map": "/shizhang-li-homepage/static/css/main.e57eef98.chunk.css.map",
     "static/media/einstein.jpg": "/shizhang-li-homepage/static/media/einstein.1cecca29.jpg",
     "static/media/miscellaneous.jpg": "/shizhang-li-homepage/static/media/miscellaneous.c7b6f60f.jpg",
     "static/media/monkey.jpg": "/shizhang-li-homepage/static/media/monkey.b4d37f48.jpg",
@@ -22,10 +22,10 @@
     "static/media/travel.jpg": "/shizhang-li-homepage/static/media/travel.bf405493.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.205ba9d6.js",
+    "static/js/runtime-main.3c31c986.js",
     "static/css/2.aa7fcd32.chunk.css",
-    "static/js/2.df052f62.chunk.js",
-    "static/css/main.ec6ab049.chunk.css",
-    "static/js/main.de11f810.chunk.js"
+    "static/js/2.328e3b25.chunk.js",
+    "static/css/main.e57eef98.chunk.css",
+    "static/js/main.f8faef49.chunk.js"
   ]
 }

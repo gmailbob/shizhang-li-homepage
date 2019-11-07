@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "44641061d8b7219f5ad7995e90f1e053",
+    "revision": "648b80c8eb0cb9f2ad4d6d7464c92c76",
     "url": "/shizhang-li-homepage/index.html"
   },
   {
-    "revision": "38a3bc43f72768be4630",
+    "revision": "3f91c99ccac466e1c7b4",
     "url": "/shizhang-li-homepage/static/css/2.aa7fcd32.chunk.css"
   },
   {
-    "revision": "6768dd023a998da32950",
-    "url": "/shizhang-li-homepage/static/css/main.ec6ab049.chunk.css"
+    "revision": "4eb5fff10056b9cafd4e",
+    "url": "/shizhang-li-homepage/static/css/main.e57eef98.chunk.css"
   },
   {
-    "revision": "38a3bc43f72768be4630",
-    "url": "/shizhang-li-homepage/static/js/2.df052f62.chunk.js"
+    "revision": "3f91c99ccac466e1c7b4",
+    "url": "/shizhang-li-homepage/static/js/2.328e3b25.chunk.js"
   },
   {
-    "revision": "6768dd023a998da32950",
-    "url": "/shizhang-li-homepage/static/js/main.de11f810.chunk.js"
+    "revision": "4eb5fff10056b9cafd4e",
+    "url": "/shizhang-li-homepage/static/js/main.f8faef49.chunk.js"
   },
   {
-    "revision": "bdeeae434b270d487483",
-    "url": "/shizhang-li-homepage/static/js/runtime-main.205ba9d6.js"
+    "revision": "2f33fa0423634f18eef8",
+    "url": "/shizhang-li-homepage/static/js/runtime-main.3c31c986.js"
   },
   {
     "revision": "1cecca297c0c2a733264a1600e5f14f8",
