@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "648b80c8eb0cb9f2ad4d6d7464c92c76",
+    "revision": "fb0b294404715dc92bd58d8d181230aa",
     "url": "/shizhang-li-homepage/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/shizhang-li-homepage/static/css/2.aa7fcd32.chunk.css"
   },
   {
-    "revision": "4eb5fff10056b9cafd4e",
-    "url": "/shizhang-li-homepage/static/css/main.e57eef98.chunk.css"
+    "revision": "c909e6a257b20b67497e",
+    "url": "/shizhang-li-homepage/static/css/main.edc2a579.chunk.css"
   },
   {
     "revision": "3f91c99ccac466e1c7b4",
     "url": "/shizhang-li-homepage/static/js/2.328e3b25.chunk.js"
   },
   {
-    "revision": "4eb5fff10056b9cafd4e",
+    "revision": "c909e6a257b20b67497e",
     "url": "/shizhang-li-homepage/static/js/main.f8faef49.chunk.js"
   },
   {
